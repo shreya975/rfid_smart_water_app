@@ -31,7 +31,10 @@ def apply_theme():
         st.markdown("""
         <style>
             .stApp { background-color: #0e1117; color: #fafafa; }
-            .block-container { padding-top: 1rem; }
+            .block-container {
+                padding-top: 3rem;
+                padding-bottom: 1rem;
+                    }
             [data-testid="stSidebar"] { background-color: #111827; }
             .metric-card {
                 padding: 1rem; border-radius: 16px; background: #1f2937; color: white; 
